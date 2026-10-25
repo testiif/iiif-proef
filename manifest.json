@@ -190,7 +190,7 @@
                 "format": "text/plain",
                 "language": "nl"
               },
-              "target": "https://proxy.archieven.nl/iiif/canvas/298/B9DD8340DC5E4BC99A657BCF33AC6E57#xywh=100,200,500,100"
+              "target": "https://proxy.archieven.nl/iiif/canvas/298/B9DD8340DC5E4BC99A657BCF33AC6E57#xywh=400,600,200,150"
             }
           ]
         }

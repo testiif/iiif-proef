@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://voorbeeld.example/iiif-proef/manifest.json",
+  "id": "https://testiif.github.io/iiif-proef/manifest.json",
   "type": "Manifest",
   "label": {
     "nl": [
@@ -177,11 +177,11 @@
       ],
       "annotations": [
         {
-          "id": "https://voorbeeld.example/iiif-proef/annotations.json",
+          "id": "https://testiif.github.io/iiif-proef/annotations.json",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://voorbeeld.example/iiif-proef/annotation/demo-1",
+              "id": "https://testiif.github.io/iiif-proef/annotation/demo-1",
               "type": "Annotation",
               "motivation": "supplementing",
               "body": {

@@ -1,0 +1,200 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://voorbeeld.example/iiif-proef/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "nl": [
+      "Stippenkaart Amsterdam (1941) — proef met tekstannotatie"
+    ]
+  },
+  "summary": {
+    "nl": [
+      "Demonstratie op basis van het IIIF Manifest van archieven.nl. De tekstannotatie is fictief en geen historische transcriptie."
+    ]
+  },
+  "homepage": [
+    {
+      "id": "https://proxy.archieven.nl/298/478CEEF5E04E4BA2E0538A77ABC202B3",
+      "type": "Text",
+      "label": {
+        "nl": [
+          "Bekijk het originele archiefrecord"
+        ]
+      },
+      "format": "text/html"
+    }
+  ],
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "Vervaardiger"
+        ]
+      },
+      "value": {
+        "none": [
+          "Bureau van Statistiek, Gemeente Amsterdam"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Taal"
+        ]
+      },
+      "value": {
+        "none": [
+          "Nederlands"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Opmerkingen"
+        ]
+      },
+      "value": {
+        "none": [
+          "Uitsluitend digitaal te raadplegen."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Afmeting"
+        ]
+      },
+      "value": {
+        "none": [
+          "98 x 95 cm."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Vorm"
+        ]
+      },
+      "value": {
+        "none": [
+          "linnen"
+        ]
+      }
+    }
+  ],
+  "provider": [
+    {
+      "id": "http://www.niod.nl",
+      "type": "Agent",
+      "label": {
+        "nl": [
+          "NIOD Instituut voor Oorlogs-, Holocaust- en Genocidestudies"
+        ]
+      }
+    },
+    {
+      "id": "https://www.archieven.nl/",
+      "type": "Agent",
+      "label": {
+        "nl": [
+          "Archieven.nl"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "https://proxy.archieven.nl/iiif/canvas/298/B9DD8340DC5E4BC99A657BCF33AC6E57",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Pagina 1"
+        ]
+      },
+      "width": 1000,
+      "height": 1500,
+      "metadata": [
+        {
+          "label": {
+            "none": [
+              "Toegangsnummer"
+            ]
+          },
+          "value": {
+            "none": [
+              "615"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Inventarisnummer"
+            ]
+          },
+          "value": {
+            "none": [
+              "999"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://proxy.archieven.nl/thumb/298/B9DD8340DC5E4BC99A657BCF33AC6E57",
+          "type": "Image",
+          "format": "image/png"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://proxy.archieven.nl/iiif/annotation-page/298/B9DD8340DC5E4BC99A657BCF33AC6E57",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://proxy.archieven.nl/iiif/annotation/298/B9DD8340DC5E4BC99A657BCF33AC6E57",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://proxy.archieven.nl/iiif-image/298/B9DD8340DC5E4BC99A657BCF33AC6E57/full/full/0/default.png",
+                "type": "Image",
+                "service": [
+                  {
+                    "id": "https://proxy.archieven.nl/iiif-image/298/B9DD8340DC5E4BC99A657BCF33AC6E57",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://proxy.archieven.nl/iiif/canvas/298/B9DD8340DC5E4BC99A657BCF33AC6E57"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://voorbeeld.example/iiif-proef/annotations.json",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://voorbeeld.example/iiif-proef/annotation/demo-1",
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": {
+                "type": "TextualBody",
+                "value": "PROEFANNOTATIE — hier komt later de transcriptie uit PAGE XML.",
+                "format": "text/plain",
+                "language": "nl"
+              },
+              "target": "https://proxy.archieven.nl/iiif/canvas/298/B9DD8340DC5E4BC99A657BCF33AC6E57#xywh=100,200,500,100"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

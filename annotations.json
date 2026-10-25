@@ -1,0 +1,19 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://voorbeeld.example/iiif-proef/annotations.json",
+  "type": "AnnotationPage",
+  "items": [
+    {
+      "id": "https://voorbeeld.example/iiif-proef/annotation/demo-1",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "value": "PROEFANNOTATIE — hier komt later de transcriptie uit PAGE XML.",
+        "format": "text/plain",
+        "language": "nl"
+      },
+      "target": "https://proxy.archieven.nl/iiif/canvas/298/B9DD8340DC5E4BC99A657BCF33AC6E57#xywh=100,200,500,100"
+    }
+  ]
+}
